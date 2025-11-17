@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riya's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="texture-overlay"></div>
+
+  <nav>
+    <div class="logo">Portfolio</div>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="hero-title">Riya Singh</h1>
+      <p class="hero-subtitle">Crafting beautiful experiences</p>
+      <p class="hero-description">
+        I’m a BCA student passionate about web development and design, actively looking for opportunities 
+        to showcase my skills and grow in the tech industry. Every project I build blends creativity 
+        with functionality to deliver elegant solutions.
+      </p>
+      <a href="#projects" class="vintage-button">View My Work</a>
+    </div>
+    <div class="hero-image">
+      <div class="hero-frame">
+        <div class="hero-frame-content">🎨</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Hello! I'm a passionate designer and developer with a love for vintage aesthetics and modern web technologies. 
+        My work combines the elegance of classic design with the power of contemporary development.</p>
+        <p>With years of experience in creating unique digital experiences, I bring creativity, attention to detail, 
+        and a commitment to excellence to every project.</p>
+      </div>
+      <div class="about-text">
+        <p>I believe in the power of good design to tell stories and create connections. Whether it's a website, 
+        an app, or a brand identity, I approach each project with fresh eyes and innovative solutions.</p>
+        <p>Let's create something beautiful together! – Riya</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+  <h2 class="section-title">Featured Projects</h2>
+
+  <div class="projects-grid">
+
+    <!-- CodeFireMax -->
+    <div class="project-card">
+      <h3>CodeFireMax</h3>
+      <p>Developed using HTML, CSS, and JavaScript — a dynamic project showcasing interactive features and clean UI.</p>
+
+      <a href="https://riyasingh2006-24.github.io/CodeFireMax/"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="view-btn">
+        View Project
+      </a>
+    </div>
+
+    <!-- TasteTrak -->
+    <div class="project-card">
+      <h3>TasteTrak</h3>
+      <p>Restaurant-themed app built with HTML, CSS, and JavaScript — featuring dynamic menus and responsive UI.</p>
+
+      <a href="https://riyasingh2006-24.github.io/TasteTrack/"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="view-btn">
+        View Project
+      </a>
+    </div>
+
+    <!-- FitPulse -->
+    <div class="project-card">
+      <h3>FitPulse</h3>
+      <p>Fitness tracking web app built with HTML, CSS, JS, JSON, server.js, and SQL — showcasing full-stack development with persistent data storage.</p>
+
+      <a href="https://riyasingh2006-24.github.io/FitPulse/"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="view-btn">
+        View Project
+      </a>
+    </div>
+
+  </div>
+</section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <form class="contact-form" id="contactForm">
+      <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" required></div>
+      <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required></div>
+      <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+
+    <!-- Social Links -->
+    <div class="social-links">
+      <a href="https://github.com/RiyaSingh2006-24" target="_blank" rel="noopener noreferrer">GitHub</a> |
+      <a href="https://www.linkedin.com/in/riya-singh-304b95324" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+      <a href="rsingh54435@gmail.com">Email</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
